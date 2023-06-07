@@ -183,6 +183,14 @@ div#header {
     margin: 1ex 0 .5ex 0;
 }
 
+#sideBar img {
+	margin: 0 25px;
+}
+#sideBar img.photo {
+	border: 1px solid #999;
+	padding: 5px;
+}
+
 /* ===== footer ===== */
 
 div#footer {

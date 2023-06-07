@@ -158,57 +158,45 @@ div#header {
     margin: 0 0 1.4ex 1em;
 }
 
-/* ==== gear subnavigation ==== */
+/* ==== gear subnavigation ====*/
 
 #mainContent ul#gearSubNav {
 	width: 340px;
 	margin: 0 auto;
 	list-style: none;
-	
 }
 #mainContent ul#gearSubNav li {
 	float: left;
 	margin: 0;
 	padding: 0;
-	
 }
-#mainContent ul#gearSubNav a {
-	width: 70px;
-	height: 20px;
-	font-family: "Orator Std" Orator, sans-serif;
-	font-size: .9em;
-	text-align: center;
-	padding-top: 100px;
-	margin-right: 20px;
-	border: none;
-	display: block;
-}
+
 #mainContent ul#gearSubNav a.last {
 	margin-right: 0;
 }
+#mainContent ul#gearSubNav a.boards { background: url(../images/rollovers/board-off.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.swimwear { background: url(../images/rollovers/swim-off.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.wetsuits { background: url(../images/rollovers/wetsuit-off.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.etc { background: url(../images/rollovers/sandals-off.jpg) no-repeat center top; } 
 
-#mainContent ul#gearSubNav a.boards { background: url(../images/rollovers/board-off.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.swimwear { background: url(../images/rollovers/swim-off.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.wetsuits { background: url(../images/rollovers/wetsuit-off.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.etc { background: url(../images/rollovers/sandals-off.jpg) no-repeat center top;}
+#mainContent ul#gearSubNav a.boards:hover { background: url(../images/rollovers/board-on.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.swimwear:hover { background: url(../images/rollovers/swim-on.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.wetsuits:hover { background: url(../images/rollovers/wetsuit-on.jpg) no-repeat center top; }
+#mainContent ul#gearSubNav a.etc:hover { background: url(../images/rollovers/sandals-on.jpg) no-repeat center top; } 
 
-#mainContent ul#gearSubNav a.boards:hover { background: url(../images/rollovers/board-on.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.swimwear:hover { background: url(../images/rollovers/swim-on.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.wetsuits:hover { background: url(../images/rollovers/wetsuit-on.jpg) no-repeat center top;}
-#mainContent ul#gearSubNav a.etc:hover { background: url(../images/rollovers/sandals-on.jpg) no-repeat center top;}
+/* ==== Gear sales box ====*/
 
-/* ===== Gear Sales box ==== */
 img.leftFloatImage {
 	float: left;
 	padding: 15px;
-	
 }
+
 div#gearDesc {
 	float: right;
 	width: 260px;
 	padding-top: 20px;
-	
 }
+
 div#gearDesc h3 {
 	font-family: Georgia, serif;
 	font-size: 1.2em;
@@ -216,18 +204,31 @@ div#gearDesc h3 {
 	border-bottom: 1px solid #344;
 	padding-bottom: .2em;
 	margin: 0;
-	
 }
-div#gearDesc p{
-font-family: "Trebuchet MS", sans-serif;
-font-size: .8em;
 
+div#gearDesc p {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: .8em;
 }
+
 div#gearDesc p.price {
-text-align: right;
-font-size: 1.2em;
-
+	text-align: right;
+	font-size: 1.2em;
 }
+
+#mainContent ul#gearSubNav a {
+	width:: 70px;
+	height: 20px;
+	font-family: "Orator Std", Orator, sans-serif;
+	font-size: .9em;
+	text-align: center;
+	padding-top: 100px;
+	margin-right: 20px;
+	border: none;
+	display: block;
+}
+
+
 /* ===== sideBar ===== */
 
 #content div#sideBar {
