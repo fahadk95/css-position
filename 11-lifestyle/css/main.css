@@ -158,19 +158,21 @@ div#header {
     margin: 0 0 1.4ex 1em;
 }
 
+/* ==== main content left menu ====*/
+
 #mainContent p.leftMenu {
 	font-family: "Trebuchet MS", sans-serif;
 	margin-top: 0;
-	
 }
+
 #mainContent p.leftMenu a {
 	color: #566440;
 }
+
 #mainContent p.leftMenu a:hover {
 	color: #b36b00;
 	border: none;
 }
-
 
 /* ===== gear subnavigation ===== */
 
@@ -282,14 +284,13 @@ div#gearDesc p.price {
 #sideBar ol {
 	margin: .5em 0 1.5em 1.5em;
 }
+
 #sideBar li {
 	font-family: "Trebuchet MS", sans-serif;
 	font-size: .8em;
 	color: #666;
 	margin: .2em .5em;
-	
 }
-	
 
 /* ===== footer ===== */
 
